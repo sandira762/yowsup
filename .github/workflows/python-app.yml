@@ -30,4 +30,4 @@ jobs:
     - name: Yowsup CLI
       run: |
         # yowsup-cli registration
-        python yowsup-cli registration --help
+        python yowsup-cli registration --requestcode sms --config-phone 6285705705776 --config-cc 62 --config-mcc 510 --config-mnc 01
